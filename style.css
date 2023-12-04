@@ -1,0 +1,194 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#line {
+    height: 0.3rem;
+    width: 100%;
+    background-color: rgba(0, 120, 201);
+}
+
+#line2{
+    margin-top: 3%;
+    height: 0.3rem;
+    width: 100%;
+    background-color: rgba(0, 201, 117, 0.541);
+}
+
+header {
+
+    font-family: hel;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3%;
+    overflow: hidden;
+    background-color: rgba(0, 86, 143);
+}
+
+header :hover {
+    transition: 0.4s;
+    padding: 3.1%;
+
+}
+
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#sec-1 {
+margin-top: 2%;
+padding: 1%;
+
+}
+
+
+#sec-1 h1{
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 2%;
+}
+
+ul{
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+h4{
+    font-weight: lighter;
+    margin: 2%;
+}
+
+#sec-1 img {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+
+#sec-1 img:hover {
+transition: 0.3s;
+    width: 51%;
+    border-radius: 20px;
+}
+
+/*  */
+
+#sec-2{
+    padding: 5em;
+    background: linear-gradient(180deg, #47474770 8.33%, rgba(38, 64, 102, 0.829)),url(img/IA\ Bg.jpg);
+    background-size: cover;
+        background-attachment: fixed;
+}
+
+#sec-2 h1{
+    color: white;
+    font-size: 2.4em;
+    margin: 2%;
+
+}
+
+#sec-2 h4{
+    color: white;
+    margin: 2%;
+}
+
+
+/*  */
+
+#sec-3{
+    padding: 2%;
+}
+
+#sec-3 h1{
+    font-size: 2.4em;
+    margin: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#div-gpt{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#div-gpt label{
+    margin: 2%;
+   max-width: 40%;
+   text-align: center;
+}
+
+#div-gpt img{
+    margin-left: 10%;
+    border-radius:34px;
+}
+
+#div-gpt img:hover{
+    transition: 0.4s;
+    border-radius:46px ;
+}
+
+/*  */
+
+#div-alexa{
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#div-alexa label{
+    margin-left: 10%;
+
+   max-width: 40%;
+   text-align: center;
+}
+
+#div-alexa img{
+    width: 38%;
+    margin: 2%;
+    border-radius:34px;
+}
+
+#div-alexa img:hover{
+    transition: 0.4s;
+    border-radius:46px ;
+}
+
+/*  */
+
+footer{
+    margin-top: 3%;
+    padding: 3%;
+    background-color: rgba(0, 86, 143);
+}
+
+footer h1{ 
+    text-align: center;
+    color: white;
+ font-size: 1.6em
+}
+
+footer a{
+    display: flex;
+ text-decoration: none;
+ color: rgb(212, 212, 212);
+}
+
+
+footer a:hover{
+    color: rgb(163, 163, 163);
+transition: 0.3s;
+font-size: 1.3em;
+}
